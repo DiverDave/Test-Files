@@ -23,8 +23,7 @@ namespace SmsKeyPressDecoder
 
             // add your code here
             // create as many unit tests or other functions as you like
-            // tests are not case sensitive
-      
+
             return message;
         }
 

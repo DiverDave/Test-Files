@@ -10,7 +10,7 @@ namespace SmsKeyPressDecoderTests
         [Fact]
         public void Test_DecodeKeyPress_WithInputForAspeqMessage_ReturnsCorrectValue()
         {
-            var inputKeys = "8443302777707337702226663444664022244255505553366433044477770866603033222666303308440444777706337777077772433";
+            var inputKeys = "8443302777707337702226663444664022244255505553366433044477770866603033222666303308440444777706337777077772444433";
 
             var message = new KeyPressDecoder().Decode(inputKeys);
 
