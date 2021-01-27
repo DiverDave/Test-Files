@@ -29,3 +29,12 @@ The function takes one parameter, ```inputKeys```  representing key presses of a
 There is a unit test in the Tests project you can use to test that your code works correctly. You can create more tests if you want.
 
 You can structure the code any way you would like. 
+
+
+## Example inputs and expected output
+| Input Keys | Expected Output |
+| ---------- | --------------- |
+| 023456789 | " ADGJMPTW" |
+| 222028 | "CAT" |
+| 200222028 | "A CAT" |
+| 2222 | "A" |
