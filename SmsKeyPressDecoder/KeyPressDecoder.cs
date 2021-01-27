@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-
-namespace SmsKeyPressDecoder
+﻿namespace SmsKeyPressDecoder
 {
     public class KeyPressDecoder
     {
-        public KeyPressDecoder()
-        {
-           
-        }
-
 
         /// <summary>
         /// Decodes a string representing key presses on a multi tap feature phone. See read me for more information.
