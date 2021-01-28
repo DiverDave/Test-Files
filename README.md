@@ -12,7 +12,7 @@ For example these 3 key press sequences, '2', '2222' and '2222222', all evaluate
 ### Special Rules for the 0 (Zero) key 
 - If the message contains consecutive letters that are on the same numeric key, then the 0 key indicates the start of a new letter. For example "222028" = "CAT", the 0 marks the end of the first letter 'C' and start of the second letter 'A', no space is inserted. 
 - If the next letter is not on the same numeric key then a 0 represents a space. For example "2036664" = "A DOG", A and D are on different keys so the 0 becomes a space.
-- If the next letter is the same numeric key but there is a space in between then the 0 key is pressed twice. For example "2002220208" = "A CAT", the double zero indicates the end of the first letter then a space.
+- If the next letter is the same numeric key but there is a space in between then the 0 key is pressed twice. For example "200222028" = "A CAT", the double zero indicates the end of the first letter then a space.
 
 ### Layout of the key pad on a Phone designed for multi-tap SMS messaging
 ![Topology](./ReadMeAssets/keypad.png)
